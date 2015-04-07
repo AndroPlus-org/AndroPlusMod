@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_description">"framework-res.apkなどの値を変更します。ここをタップすると設定が出来ます。"</string>
-    <string name="label_settings">WedyMod</string>
     <string name="label_icontext">アクションバーのアイコン横に説明表示</string>
     <string name="label_ledoff">充電完了時にLED消灯</string>
     <string name="label_unplugon">"電源接続･解除時に画面をオンにしない"</string>

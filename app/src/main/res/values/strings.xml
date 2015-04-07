@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_description">"Change values of framework-res.apk. Tap here to configure settings."</string>
-    <string name="label_settings">WedyMod</string>
     <string name="label_icontext">Show text beside icon on action bar</string>
     <string name="label_ledoff">Turn off LED when charge completed</string>
     <string name="label_unplugon">"Don\'t turn on screen when unplug"</string>
