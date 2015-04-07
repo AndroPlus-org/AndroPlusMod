@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_allowActionMenuItemTextWithIcon">true</bool>
+    <bool name="config_led_off_when_battery_fully_charged">true</bool>
+    <bool name="config_unplugTurnsOnScreen">false</bool>
+    <bool name="config_deskDockEnablesAccelerometer">false</bool>
+    <bool name="config_carDockEnablesAccelerometer">false</bool>
+    <bool name="config_sendAudioBecomingNoisy">false</bool>
+    <bool name="config_useVolumeKeySounds">false</bool>
+    <bool name="config_voice_capable">false</bool>
+    <bool name="skip_restoring_network_selection">true</bool>
+    <bool name="show_ongoing_ime_switcher">false</bool>
+    <bool name="config_disableMenuKeyInLockScreen">false</bool>
+    <bool name="lockscreen_isPortrait">false</bool>
+    <bool name="config_enableLockScreenRotation">true</bool>
+    <bool name="config_dontPreferApn">true</bool>
+</resources>

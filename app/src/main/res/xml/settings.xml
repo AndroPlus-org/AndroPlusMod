@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    	<Preference android:title="@string/label_rebootaf" android:key="mess" android:summary="@string/nosum" style="?android:preferenceInformationStyle" />
+	    <CheckBoxPreference
+	    android:key="key_purepaste"
+	    android:title="@string/label_purepaste"
+	    android:summary="@string/sum_purepaste"
+	    android:defaultValue="false"/>
+	    <CheckBoxPreference
+	    android:key="key_icontext"
+	    android:title="@string/label_icontext"
+	    android:summary="@string/sum_icontext"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_ledoff"
+	    android:title="@string/label_ledoff"
+	    android:summary="@string/sum_ledoff"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_unplugon"
+	    android:title="@string/label_unplugon"
+	    android:summary="@string/sum_unplugon"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_unplugdock"
+	    android:title="@string/label_unplugdock"
+	    android:summary="@string/sum_unplugdock"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_noisy"
+	    android:title="@string/label_noisy"
+	    android:summary="@string/sum_noisy"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_volsound"
+	    android:title="@string/label_volsound"
+	    android:summary="@string/sum_volsound"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_skipnet"
+	    android:title="@string/label_skipnet"
+	    android:summary="@string/sum_skipnet"
+	    android:defaultValue="false"/>
+	    <CheckBoxPreference
+	    android:key="key_prefapn"
+	    android:title="@string/label_prefapn"
+	    android:summary="@string/sum_prefapn"
+	    android:defaultValue="false"/>
+	    <CheckBoxPreference
+	    android:key="key_voice"
+	    android:title="@string/label_voice"
+	    android:summary="@string/sum_voice"
+	    android:defaultValue="false"/>
+	    <CheckBoxPreference
+	    android:key="key_dim"
+	    android:title="@string/label_dim"
+	    android:summary="@string/sum_dim"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_ime"
+	    android:title="@string/label_ime"
+	    android:summary="@string/sum_ime"
+	    android:defaultValue="false"/>
+	    <CheckBoxPreference
+	    android:key="key_boost"
+	    android:title="@string/label_boost"
+	    android:summary="@string/sum_boost"
+	    android:defaultValue="false"/>
+	    <CheckBoxPreference
+	    android:key="key_lockmenu"
+	    android:title="@string/label_lockmenu"
+	    android:summary="@string/sum_lockmenu"
+	    android:defaultValue="false"/>
+	    <CheckBoxPreference
+	    android:key="key_lockrot"
+	    android:title="@string/label_lockrot"
+	    android:summary="@string/sum_lockrot"
+	    android:defaultValue="false"/>
+	    <CheckBoxPreference
+	    android:key="key_notifbg"
+	    android:title="@string/label_notifbg"
+	    android:summary="@string/sum_notifbg"
+	    android:defaultValue="false"/>
+	    <CheckBoxPreference
+	    android:key="key_hideime"
+	    android:title="@string/label_hideime"
+	    android:summary="@string/sum_hideime"
+	    android:defaultValue="false"/>
+	    <CheckBoxPreference
+	    android:key="key_glove"
+	    android:title="@string/label_glove"
+	    android:summary="@string/sum_glove"
+	    android:defaultValue="false"/>
+	    <CheckBoxPreference
+	    android:key="key_autob"
+	    android:title="@string/label_autob"
+	    android:summary="@string/sum_autob"
+	    android:defaultValue="false"/>
+	    <CheckBoxPreference
+	    android:key="key_wifiband"
+	    android:title="@string/label_wifiband"
+	    android:summary="@string/sum_wifiband"
+	    android:defaultValue="false"/>
+	    <CheckBoxPreference
+	    android:key="key_fixjpnz3"
+	    android:title="@string/label_fixjpnz3"
+	    android:summary="@string/sum_fixjpnz3"
+	    android:disableDependentsState="true"
+	    android:defaultValue="false"/>
+	    <CheckBoxPreference
+	    android:key="key_fixjpnz32"
+	    android:title="@string/label_fixjpnz32"
+	    android:summary="@string/sum_fixjpnz32"
+	    android:dependency="key_fixjpnz3"
+	    android:defaultValue="false"/>
+	    <CheckBoxPreference
+	    android:key="key_monx"
+	    android:title="@string/label_monx"
+	    android:summary="@string/sum_monx"
+	    android:defaultValue="false"/>
+	    <CheckBoxPreference
+	    android:key="key_monxz1"
+	    android:title="@string/label_monxz1"
+	    android:summary="@string/sum_monxz1"
+	    android:defaultValue="false"/>
+	
+	<Preference android:key="mes" android:title="@string/label_settings" android:summary="@string/mesum">
+            <intent android:action="android.intent.action.VIEW"
+             android:data="http://androplus.kagome-kagome.com/" />
+        </Preference>
+</PreferenceScreen>

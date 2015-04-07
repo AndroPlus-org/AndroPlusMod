@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="status_bar_icon_drawing_alpha">100.0%</item>
+    <dimen name="status_bar_icon_drawing_size">24.0dip</dimen>
+    <dimen name="navigation_bar_height">30.0dip</dimen>
+    <dimen name="navigation_bar_height_landscape">30.0dip</dimen>
+</resources>

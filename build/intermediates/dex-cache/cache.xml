@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\pre-dexed\release\support-annotations-21.0.2-9fc3c7de1400ed4e3c2ff4e230b8c3908f6474a5.jar" />
+    </item>
+    <item
+        jar="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\pre-dexed\release\internal_impl-21.0.2-e28ab4cf175a7bd32b612fdc634109241c4f55a2.jar" />
+    </item>
+    <item
+        jar="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\pre-dexed\release\classes-d116210aca83773e241881f082687f86905824fa.jar" />
+    </item>
+    <item
+        jar="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\pre-dexed\release\classes-98b33c6ed588f3eba83fb698ad0f53ef65f45294.jar" />
+    </item>
+
+</items>

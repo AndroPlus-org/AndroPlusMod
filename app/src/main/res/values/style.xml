@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+    <item name="colorPrimary">#2196f3</item>
+    <item name="android:windowNoTitle">false</item>
+    <!-- Window attributes -->
+  <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+  <item name="android:windowTitleStyle">@style/WindowTitle</item>
+  <item name="android:windowTitleSize">56dip</item>
+</style>
+  
+<style name="WindowTitleBackground">
+  <item name="android:background">#2196f3</item>
+</style>
+      
+<style name="WindowTitle">  
+  <item name="android:singleLine">true</item>
+  <item name="android:textColor">#fff</item>
+  <item name="android:textSize">20sp</item>
+  <item name="android:drawableLeft">@drawable/ic_launcher</item>
+  <item name="android:shadowColor">#00000000</item>
+</style>
+</resources>

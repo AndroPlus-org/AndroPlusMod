@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">WedyMod-res</string>
+    <string name="global_action_reboot_normal" translatable="false">再起動</string>
+    <string name="global_action_reboot_title" translatable="false">再起動オプション</string>
+    <string name="global_action_fullscreen_toggle" translatable="false">全画面トグル</string>
+    
+    <string name="global_action_reboot_hotreboot" translatable="false">ホットリブート</string>
+    <string name="global_action_reboot_recovery" translatable="false">リカバリ</string>
+    
+    <string name="global_action_screenshot_split_txt">"スクリーン
+    ショット"</string>
+    <string name="global_action_screenrecording_split_txt">"スクリーン
+    レコード"</string>
+  <string name="global_action_screenshot_split_txt_j">画面撮影</string>
+    <string name="global_action_screenrecording_split_txt_j">画面録画</string>
+    
+</resources>

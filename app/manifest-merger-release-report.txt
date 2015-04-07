@@ -1,0 +1,75 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+MERGED from com.android.support:support-v4:21.0.2:15:5
+MERGED from com.android.support:appcompat-v7:21.0.2:15:5
+MERGED from com.android.support:support-v4:21.0.2:15:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:7:42
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:7:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:9:5
+MERGED from com.android.support:support-v4:21.0.2:16:5
+MERGED from com.android.support:appcompat-v7:21.0.2:16:5
+MERGED from com.android.support:support-v4:21.0.2:16:5
+	android:label
+		ADDED from AndroidManifest.xml:11:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:9:18
+	android:icon
+		ADDED from AndroidManifest.xml:10:9
+meta-data#xposedmodule
+ADDED from AndroidManifest.xml:13:9
+	android:value
+		ADDED from AndroidManifest.xml:13:20
+	android:name
+		ADDED from AndroidManifest.xml:13:41
+meta-data#xposedminversion
+ADDED from AndroidManifest.xml:14:9
+	android:value
+		ADDED from AndroidManifest.xml:14:20
+	android:name
+		ADDED from AndroidManifest.xml:14:41
+meta-data#xposeddescription
+ADDED from AndroidManifest.xml:15:9
+	android:value
+		ADDED from AndroidManifest.xml:15:20
+	android:name
+		ADDED from AndroidManifest.xml:15:60
+activity#com.wedy.mod.SettingActivity
+ADDED from AndroidManifest.xml:17:9
+	android:label
+		ADDED from AndroidManifest.xml:17:51
+	android:theme
+		ADDED from AndroidManifest.xml:17:90
+	android:name
+		ADDED from AndroidManifest.xml:17:19
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:18:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:19:17
+	android:name
+		ADDED from AndroidManifest.xml:19:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:20:17
+	android:name
+		ADDED from AndroidManifest.xml:20:27
