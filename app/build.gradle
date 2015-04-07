@@ -24,6 +24,6 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:20.0.0'
-    provided files('"D:/myuser/document/GitHub/XposedBridgeApi-20150213.jar"')
+    provided files('../../XposedBridgeApi-20150213.jar')
     compile "com.android.support:appcompat-v7:21.0.+"
 }

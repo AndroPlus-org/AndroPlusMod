@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
-    <style name="AppTheme" parent="Theme.AppCompat.Light">
+<style name="AppTheme" parent="Theme.AppCompat.Light">
     <item name="colorPrimary">#2196f3</item>
     <item name="android:windowNoTitle">false</item>
     <!-- Window attributes -->

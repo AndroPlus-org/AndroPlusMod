@@ -62,11 +62,6 @@
 	    android:summary="@string/sum_ime"
 	    android:defaultValue="false"/>
 	    <CheckBoxPreference
-	    android:key="key_boost"
-	    android:title="@string/label_boost"
-	    android:summary="@string/sum_boost"
-	    android:defaultValue="false"/>
-	    <CheckBoxPreference
 	    android:key="key_lockmenu"
 	    android:title="@string/label_lockmenu"
 	    android:summary="@string/sum_lockmenu"
@@ -87,11 +82,6 @@
 	    android:summary="@string/sum_hideime"
 	    android:defaultValue="false"/>
 	    <CheckBoxPreference
-	    android:key="key_glove"
-	    android:title="@string/label_glove"
-	    android:summary="@string/sum_glove"
-	    android:defaultValue="false"/>
-	    <CheckBoxPreference
 	    android:key="key_autob"
 	    android:title="@string/label_autob"
 	    android:summary="@string/sum_autob"
@@ -100,28 +90,6 @@
 	    android:key="key_wifiband"
 	    android:title="@string/label_wifiband"
 	    android:summary="@string/sum_wifiband"
-	    android:defaultValue="false"/>
-	    <CheckBoxPreference
-	    android:key="key_fixjpnz3"
-	    android:title="@string/label_fixjpnz3"
-	    android:summary="@string/sum_fixjpnz3"
-	    android:disableDependentsState="true"
-	    android:defaultValue="false"/>
-	    <CheckBoxPreference
-	    android:key="key_fixjpnz32"
-	    android:title="@string/label_fixjpnz32"
-	    android:summary="@string/sum_fixjpnz32"
-	    android:dependency="key_fixjpnz3"
-	    android:defaultValue="false"/>
-	    <CheckBoxPreference
-	    android:key="key_monx"
-	    android:title="@string/label_monx"
-	    android:summary="@string/sum_monx"
-	    android:defaultValue="false"/>
-	    <CheckBoxPreference
-	    android:key="key_monxz1"
-	    android:title="@string/label_monxz1"
-	    android:summary="@string/sum_monxz1"
 	    android:defaultValue="false"/>
 	
 	<Preference android:key="mes" android:title="@string/label_settings" android:summary="@string/mesum">

@@ -111,12 +111,7 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 		}
 		boolean isDimc = preference.getBoolean("key_dim", false);
 
-		if (isDimc && Build.VERSION.SDK_INT <= 16) {
-			XResources.setSystemWideReplacement("android", "integer",
-					"config_screenBrightnessDim",
-					modRes.fwd(R.integer.config_screenBrightnessDim));
-			XposedBridge.log("Wedy: min dim 10 for 4.1");
-		} else if (isDimc && Build.VERSION.SDK_INT >= 17) {
+		if (isDimc && Build.VERSION.SDK_INT >= 17) {
 			XResources.setSystemWideReplacement(
 							"android",
 							"integer",
@@ -127,7 +122,6 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 							"integer",
 							"config_screenBrightnessSettingMinimum",
 							modRes.fwd(R.integer.config_screenBrightnessSettingMinimum));
-			XposedBridge.log("Wedy: I am JB 4.2 or later");
 		}
 		boolean isImehi = preference.getBoolean("key_ime", false);
 
@@ -165,27 +159,6 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 		if (isHideime) {
 			XResources.setSystemWideReplacement("android", "bool",
 					"config_camera_sound_forced", false);
-			XResources.setSystemWideReplacement("android", "bool",
-					"config_enableCpuBoostForOverScrollerFling", true);
-		}
-		boolean isCpuboost = preference.getBoolean("key_boost", false);
-		if (isCpuboost) {
-			XResources.setSystemWideReplacement("android", "bool",
-					"config_enableCpuBoostForOverScrollerFling", true);
-		}
-		boolean isGlove = preference.getBoolean("key_glove", false);
-		if (isGlove) {
-			XResources.setSystemWideReplacement("android", "bool",
-					"config_enable_glove_mode", true);
-		}
-		boolean isLtedbmc = preference.getBoolean("key_navbar", false);
-		if (isLtedbmc) {
-			XResources.setSystemWideReplacement("android", "dimen",
-					"navigation_bar_height",
-					modRes.fwd(R.dimen.navigation_bar_height));
-			XResources.setSystemWideReplacement("android", "dimen",
-					"navigation_bar_height_landscape",
-					modRes.fwd(R.dimen.navigation_bar_height_landscape));
 		}
 		boolean isAutob = preference.getBoolean("key_autob", false);
 		if (isAutob) {
@@ -204,64 +177,6 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 					"config_wifi_dual_band_support",
 					true);
 		}
-		
-		boolean isMonxs = preference.getBoolean("key_monx", false);
-
-		if (isMonxs) {
-			XResources.setSystemWideReplacement("android", "string",
-					"global_action_reboot_normal",
-					modRes.fwd(R.string.global_action_reboot_normal));
-			XResources.setSystemWideReplacement("android", "string",
-					"global_action_reboot_title",
-					modRes.fwd(R.string.global_action_reboot_title));
-			XResources.setSystemWideReplacement("android", "string",
-					"global_action_fullscreen_toggle",
-					modRes.fwd(R.string.global_action_fullscreen_toggle));
-		}
-		
-		// Fix Japanese translations for Z3 style
-		boolean isFixjpnz3 = preference.getBoolean("key_fixjpnz3", false);
-
-		if (isFixjpnz3) {
-			XResources.setSystemWideReplacement("android", "string",
-					"global_action_screenshot_split_txt",
-					modRes.fwd(R.string.global_action_screenshot_split_txt));
-			XResources.setSystemWideReplacement("android", "string",
-					"global_action_screenrecording_split_txt",
-					modRes.fwd(R.string.global_action_screenrecording_split_txt));
-		}
-		// Fix Japanese translations for Z3 style
-		boolean isFixjpnz32 = preference.getBoolean("key_fixjpnz32", false);
-
-		if (isFixjpnz32) {
-			XResources.setSystemWideReplacement("android", "string",
-					"global_action_screenshot_split_txt",
-					modRes.fwd(R.string.global_action_screenshot_split_txt_j));
-			XResources.setSystemWideReplacement("android", "string",
-					"global_action_screenrecording_split_txt",
-					modRes.fwd(R.string.global_action_screenrecording_split_txt_j));
-		}
-		
-		boolean isMonxsz1 = preference.getBoolean("key_monxz1", false);
-
-		if (isMonxsz1) {
-			XResources.setSystemWideReplacement("android", "string",
-					"global_action_reboot_normal",
-					modRes.fwd(R.string.global_action_reboot_normal));
-			XResources.setSystemWideReplacement("android", "string",
-					"global_action_reboot_title",
-					modRes.fwd(R.string.global_action_reboot_title));
-			XResources.setSystemWideReplacement("android", "string",
-					"global_action_fullscreen_toggle",
-					modRes.fwd(R.string.global_action_fullscreen_toggle));
-			XResources.setSystemWideReplacement("android", "string",
-					"global_action_reboot_hotreboot",
-					modRes.fwd(R.string.global_action_reboot_hotreboot));
-			XResources.setSystemWideReplacement("android", "string",
-					"global_action_reboot_recovery",
-					modRes.fwd(R.string.global_action_reboot_recovery));
-		}
-		
 
 	}
 	
@@ -328,7 +243,7 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 						try
 						{
 							final String className = "com.android.server.DockObserver";
-							final String methodName = "onUEvent";
+							final String methodName = "setDockStateLocked";
 							
 							// The first elements are getThreadStackTrace, getStackTrace, beforeHookedMethod,
 							// handleHookedMethod, PowerManagerService.wakeUp and PowerManager.wakeUp
@@ -346,7 +261,7 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 					}
 				};
 				
-				final String pm = "com.android.server.power.PowerManagerService";
+				final String pm = "com.android.server.power.PowerManagerService$BinderService";
 				findAndHookMethod(pm, lpparam.classLoader, "wakeUp", signature);
 			}
 			catch(Throwable t)

@@ -9,11 +9,32 @@
         <dex dex="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\pre-dexed\release\support-annotations-21.0.2-9fc3c7de1400ed4e3c2ff4e230b8c3908f6474a5.jar" />
     </item>
     <item
+        jar="D:\myuser\document\GitHub\AndroPlusMod\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="D:\myuser\document\GitHub\AndroPlusMod\app\build\intermediates\pre-dexed\release\classes-0737b91395db2ff62a8f3761684b4f5fbdcbf8ca.jar" />
+    </item>
+    <item
         jar="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
         jumboMode="false"
         revision="21.1.1"
         sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
         <dex dex="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\pre-dexed\release\internal_impl-21.0.2-e28ab4cf175a7bd32b612fdc634109241c4f55a2.jar" />
+    </item>
+    <item
+        jar="D:\myuser\document\GitHub\AndroPlusMod\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="D:\myuser\document\GitHub\AndroPlusMod\app\build\intermediates\pre-dexed\release\classes-14666172e7b0deb6ffcf7061f1ccd5a1f41fac76.jar" />
+    </item>
+    <item
+        jar="D:\myuser\document\GitHub\AndroPlusMod\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="D:\myuser\document\GitHub\AndroPlusMod\app\build\intermediates\pre-dexed\release\internal_impl-21.0.2-9fd640f06834e993f537f3a2eb8ff47bc89238d9.jar" />
     </item>
     <item
         jar="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
