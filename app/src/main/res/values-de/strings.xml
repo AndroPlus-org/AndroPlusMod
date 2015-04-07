@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_description">"Ändere den Inhalt der framework-res.apk. Drücke hier zum bearbeiten der Einstellungen"</string>
-    <string name="label_settings">WedyMod</string>
     <string name="label_icontext">Zeige Icontext in der Aktionsleiste</string>
     <string name="label_ledoff">Schaltet LED aus wenn Akku voll geladen ist</string>
     <string name="label_unplugon">"Schaltet nicht den Bildschirm an wenn USB abgezogen wird"</string>
@@ -50,6 +49,8 @@
     <string name="sum_fixjpnz32">Nur für Japaner. Ändere die Sprache im Ausschaltmenü</string>
     <string name="label_purepaste">Verhindere Leerzeilen beim Kopieren</string>
     <string name="sum_purepaste">Verhindere Leerzeilen vor und nach eingefügten Wörtern</string>
+    <string name="label_wifiband">Wähle WLAN Frequenz</string>
+    <string name="sum_wifiband">Option zur Wahl der WLAN Frequenz wird in den WLAN Einstellungen angezeigt</string>
     <string name="label_rebootaf">Info</string>
     <string name="nosum">Du musst Neustarten um die Änderungen zu aktivieren</string>
     <string name="mesum">"@WedyDQ10"</string>

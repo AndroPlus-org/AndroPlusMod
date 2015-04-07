@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_description">"Изменение значений framework-res.apk. Нажмите здесь для конфигурирования настроек."</string>
-    <string name="label_settings">WedyMod</string>
     <string name="label_icontext">Показать описание рядом с иконкой на панели действий</string>
     <string name="label_ledoff">Выключать светодиод, когда зарядка закончена</string>
     <string name="label_unplugon">"Не включать экран, когда док-станция отключена."</string>
