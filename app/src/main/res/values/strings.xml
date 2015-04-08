@@ -17,7 +17,7 @@
     <string name="sum_noisy">Disable warning when you turn up the volume with headphone connected.\nBe careful not to turn up too high.</string>
     <string name="sum_volsound">Disable sound when you change the volume.</string>
     <string name="sum_skipnet">"Don\'t restore network mode when you change the network."</string>
-    <string name="sum_dim">You can change brightness to 10 in Display settings.</string>
+    <string name="sum_dim">You can change brightness to 5 in Display settings.</string>
     <string name="sum_ime">"Disable \"Choose input method\" notification when you type texts."</string>
     <string name="sum_notifbg">Change color of icon background of notification drawer to transparent.</string>
     <string name="sum_monx">"Translate HONAMiXZ\'s power menu to Japanese."</string>

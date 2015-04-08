@@ -17,7 +17,7 @@
     <string name="sum_noisy">ヘッドフォン接続中に音量を変更したときの警告を表示しないようにします。\n音量を大きくしすぎないようご注意ください。</string>
     <string name="sum_volsound">音量を変更したときに鳴る効果音をなくします。</string>
     <string name="sum_skipnet">"ネットワーク変更時にネットワークモードの復元をしないようにします。\nこれで3G固定できるかもしれません。(未確認)"</string>
-    <string name="sum_dim">設定で変更出来る明るさの最低値を10にします。</string>
+    <string name="sum_dim">設定で変更出来る明るさの最低値を5にします。</string>
     <string name="sum_ime">"文字入力中に表示される「入力方法の選択」を出さないようにします。"</string>
     <string name="sum_notifbg">通知領域のアプリのアイコンの背景を透過します。</string>
     <string name="sum_monx">"HONAMiXZで追加された電源メニューの文字列を日本語化します。"</string>
