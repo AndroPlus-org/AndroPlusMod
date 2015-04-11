@@ -17,3 +17,4 @@ proguard/
 .gradle
 app/build/
 .DS_Store
+build/intermediates/model_data.bin
