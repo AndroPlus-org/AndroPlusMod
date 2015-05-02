@@ -188,6 +188,9 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 			case "android":
 				hookPowerManager(lpparam);
 				break;
+			case "com.sonymobile.prototypeprotection":
+				hookPrototypeProtection(lpparam);
+				break;
 		}
 		boolean isPurepaste = preference.getBoolean("key_purepaste", false);
 		if (isPurepaste) {
@@ -263,6 +266,26 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 				
 				final String pm = "com.android.server.power.PowerManagerService$BinderService";
 				findAndHookMethod(pm, lpparam.classLoader, "wakeUp", signature);
+			}
+			catch(Throwable t)
+			{
+				XposedBridge.log(t);
+			}
+		}
+		}
+	
+	public void hookPrototypeProtection(LoadPackageParam lpparam)
+		{
+		boolean isAntip = preference.getBoolean("key_antiproto", false);
+		if(isAntip){
+			try
+			{
+			XposedHelpers.findAndHookMethod(
+					"com.sonymobile.prototypeprotection.PrototypeProtectionService",
+					lpparam.classLoader,
+					"init",
+					XC_MethodReplacement.DO_NOTHING
+			);
 			}
 			catch(Throwable t)
 			{

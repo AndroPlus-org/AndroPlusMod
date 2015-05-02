@@ -48,7 +48,7 @@ ADDED from AndroidManifest.xml:14:9
 	android:value
 		ADDED from AndroidManifest.xml:14:20
 	android:name
-		ADDED from AndroidManifest.xml:14:41
+		ADDED from AndroidManifest.xml:14:40
 meta-data#xposeddescription
 ADDED from AndroidManifest.xml:15:9
 	android:value

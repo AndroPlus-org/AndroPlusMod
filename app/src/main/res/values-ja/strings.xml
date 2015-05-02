@@ -51,6 +51,8 @@
     <string name="sum_purepaste">クリップボードから貼り付けたときに、前後に余計な空白を挿入しないようにします。</string>
     <string name="label_wifiband">Wi-Fi周波数帯の選択</string>
     <string name="sum_wifiband">使用する周波数帯をWi-Fi設定で選べるようにします。</string>
+    <string name="label_antiproto">Anti-PrototypeProtection</string>
+    <string name="sum_antiproto">PrototypeProtectionの動作を無効化します。xdaなどを見ようとして"net::ERR_NAME_NOT_RESOLVED\"というエラーが出たときに使ってください。根本的に解決するには、/system/appにあるPrototypeProtection.apkを無効化するか削除してください。</string>
     <string name="label_rebootaf">注意</string>
     <string name="nosum">変更は再起動後に反映されます。\n一部機種によって動作しないことがあります。</string>
     <string name="mesum">"@WedyDQ10"</string>
