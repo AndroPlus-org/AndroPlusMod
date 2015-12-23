@@ -39,8 +39,12 @@
     <string name="sum_navbar">ナビバーの高さを変更します。</string>
     <string name="label_boost">オーバースクローラフリックでCPUをブーストする</string>
     <string name="sum_boost">"実験的:実際に動作しているか不明です。"</string>
-    <string name="label_autob">明るさの自動調整レベルを半減する</string>
-    <string name="sum_autob">画面の明るさの自動調整レベルを半減します。</string>
+    <string name="label_autob">明るさの自動調整レベルを変更する</string>
+    <string name="sum_autob">画面の明るさの自動調整レベルを変更します。</string>
+    <string name="label_autob_i">明るさの自動調節レベル</string>
+    <string name="sum_autob_i">明るさの自動調節のルクス値を変更します。 注意: 明るさの自動調節の明るさの値と同じ数で、コンマ区切りで入力してください。</string>
+    <string name="label_autob_i2">明るさの自動調節の明るさの値</string>
+    <string name="sum_autob_i2">明るさの自動調節の明るさの値を変更します。 注意: 明るさの自動調節レベルと同じ数で、コンマ区切りで入力してください。</string>
     <string name="label_monxz1">"Honam1Zの電源メニュー日本語化"</string>
     <string name="sum_monxz1">"monxDIFIED Honam1Zで追加された電源メニューの文字列を日本語化します。"</string>
     <string name="label_fixjpnz3">Z3の日本語訳修正</string>
@@ -52,8 +56,7 @@
     <string name="label_wifiband">Wi-Fi周波数帯の選択</string>
     <string name="sum_wifiband">使用する周波数帯をWi-Fi設定で選べるようにします。</string>
     <string name="label_antiproto">Anti-PrototypeProtection</string>
-    <string name="sum_antiproto">PrototypeProtectionの動作を無効化します。xdaなどを見ようとして"net::ERR_NAME_NOT_RESOLVED\"というエラーが出たときに使ってください。根本的に解決するには、/system/appにあるPrototypeProtection.apkを無効化するか削除してください。</string>
+    <string name="sum_antiproto">PrototypeProtectionの動作を無効化します。xdaなどを見ようとして\"net::ERR_NAME_NOT_RESOLVED\"というエラーが出たときに使ってください。根本的に解決するには、/system/appにあるPrototypeProtection.apkを無効化するか削除してください。</string>
     <string name="label_rebootaf">注意</string>
     <string name="nosum">変更は再起動後に反映されます。\n一部機種によって動作しないことがあります。</string>
-    <string name="mesum">"@WedyDQ10"</string>
 </resources>

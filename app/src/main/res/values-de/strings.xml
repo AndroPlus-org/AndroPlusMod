@@ -31,7 +31,7 @@
     <string name="sum_lockmenu">Verhindert das ausblenden des Menü button im Sperrbildschirm</string>
     <string name="label_prefapn">Keine APN bevorzugt</string>
     <string name="sum_prefapn">Bevorzuge keine APN</string>
-    <string name="label_hideime">Erzwinge keinen Kameraton</string>
+    <string name="label_hideime">"FRAMEWORK "</string>
     <string name="sum_hideime">Zeige Verschlusston optionen in der Kamera</string>
     <string name="label_glove">Zeige Handschuhmodus</string>
     <string name="sum_glove">Zeige Handschuhmodus</string>
@@ -53,5 +53,4 @@
     <string name="sum_wifiband">Option zur Wahl der WLAN Frequenz wird in den WLAN Einstellungen angezeigt</string>
     <string name="label_rebootaf">Info</string>
     <string name="nosum">Du musst Neustarten um die Änderungen zu aktivieren</string>
-    <string name="mesum">"@WedyDQ10"</string>
 </resources>

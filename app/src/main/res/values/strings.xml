@@ -39,8 +39,12 @@
     <string name="sum_navbar">Change navbar height</string>
     <string name="label_boost">CPU boost for overscroller fing</string>
     <string name="sum_boost">"Experimental, I don't know if it really works."</string>
-    <string name="label_autob">Lower auto brightness</string>
-    <string name="sum_autob">Reduce auto brightnesss levels by half.</string>
+    <string name="label_autob">Change auto brightness levels</string>
+    <string name="sum_autob">Change auto brightnesss levels as you like. Please change values below.</string>
+    <string name="label_autob_i">Auto brightness level</string>
+    <string name="sum_autob_i">This will change light sensor LUX values. Note: Values must be same number of items of Auto brightness LCD level and separated by a comma</string>
+    <string name="label_autob_i2">Auto brightness LCD level</string>
+    <string name="sum_autob_i2">This is LCD backlight levels corresponding to the above LUX values. Note: Values must be same number of items of Auto brightness level and separated by a comma</string>
     <string name="label_monxz1">"Translate monXdifiedZ's power menu to Japanese"</string>
     <string name="sum_monxz1">"Translate Honam1Z\'s power menu to Japanese."</string>
     <string name="label_fixjpnz3">Fix Japanese translation for Z3</string>
@@ -55,5 +59,4 @@
     <string name="sum_antiproto">Kill PrototypeProtection. Use this if you get \"net::ERR_NAME_NOT_RESOLVED\" error when you visit xda. I recommend disabling or deleting PrototypeProtection.apk in /system/app, though.</string>
     <string name="label_rebootaf">Note</string>
     <string name="nosum">You may need to reboot for changes to take effect.</string>
-    <string name="mesum">"@WedyDQ10"</string>
 </resources>

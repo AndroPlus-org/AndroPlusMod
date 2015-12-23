@@ -9,5 +9,11 @@
     <string name="label_skipnet">"Evitar restauración del modo conexión."</string>
     <string name="label_dim">Cambiar el brillo mínimo a 5.</string>
     <string name="label_ime">"Deshabilitar la notificación \"Elige el método de entrada."</string>
+    <string name="label_notifbg">Hacer panel de notoficaciones transparente</string>
     <string name="label_monx">"Traducir monXdifiedZ's menú a Japones."</string>
+    <string name="sum_icontext">Muestra descripción del icono en barra de notificación</string>
+    <string name="sum_ledoff">Apagar el LED cuando finalice la carga.</string>
+    <string name="sum_unplugon">"No encender la pantalla cuando se conecte o desconecte el cargador."</string>
+    <string name="sum_noisy">Desactivar alerta por volumen alto con auriculares.\nTenga cuidado de no ponerlo muy alto.</string>
+    <string name="sum_volsound">Desactivar sonido cuando cambias el volumen.</string>
 </resources>

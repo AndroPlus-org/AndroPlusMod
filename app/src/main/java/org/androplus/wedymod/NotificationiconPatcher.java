@@ -162,12 +162,21 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 		}
 		boolean isAutob = preference.getBoolean("key_autob", false);
 		if (isAutob) {
-			XResources.setSystemWideReplacement("android", "array",
+			/*XResources.setSystemWideReplacement("android", "array",
 					"config_autoBrightnessLevels",
 					modRes.fwd(R.array.config_autoBrightnessLevels));
 			XResources.setSystemWideReplacement("android", "array",
 					"config_autoBrightnessLcdBacklightValues",
 					modRes.fwd(R.array.config_autoBrightnessLcdBacklightValues));
+					*/
+			String BrightnessLevels = preference.getString("key_autob_i", "10,30,60,100,150,210,255");
+			String[] arrBrightnessLevels = BrightnessLevels.split(",");
+			String LCDBrightnessLevels = preference.getString("key_autob_i2", "10,20,40,70,110,160,200,255");
+			String[] arrLCDBrightnessLevels = LCDBrightnessLevels.split(",");
+			XResources.setSystemWideReplacement("android", "array",
+					"config_autoBrightnessLevels", arrBrightnessLevels);
+			XResources.setSystemWideReplacement("android", "array",
+					"config_autoBrightnessLcdBacklightValues", arrLCDBrightnessLevels);
 		}
 		
 		boolean isWifiband = preference.getBoolean("key_wifiband", false);

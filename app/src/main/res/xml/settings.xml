@@ -86,6 +86,25 @@
 	    android:title="@string/label_autob"
 	    android:summary="@string/sum_autob"
 	    android:defaultValue="false"/>
+	    <EditTextPreference 
+	    android:defaultValue="10,30,60,100,150,210,255" 
+	    android:key="key_autob_i" 
+	    android:title="@string/label_autob_i"
+	    android:summary="@string/sum_autob_i"
+	    android:dependency="key_autob"
+	    android:inputType="number"
+	    android:digits="01234567890,"
+	    />
+	    <EditTextPreference 
+	    android:defaultValue="10,20,40,70,110,160,200,255" 
+	    android:key="key_autob_i2" 
+	    android:title="@string/label_autob_i2"
+	    android:summary="@string/sum_autob_i2"
+	    android:dependency="key_autob"
+	    android:inputType="number"
+	    android:digits="01234567890,"
+	    />
+	    
 	    <CheckBoxPreference
 	    android:key="key_wifiband"
 	    android:title="@string/label_wifiband"
