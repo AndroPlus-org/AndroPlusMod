@@ -2,6 +2,12 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
     	<Preference android:title="@string/label_rebootaf" android:key="mess" android:summary="@string/nosum" style="?android:preferenceInformationStyle" />
 	    <CheckBoxPreference
+	    android:key="key_remove_screenshot_delay"
+	    android:title="@string/label_remove_screenshot_delay"
+	    android:summary="@string/sum_remove_screenshot_delay"
+	    android:defaultValue="false"/>
+	    
+	    <CheckBoxPreference
 	    android:key="key_purepaste"
 	    android:title="@string/label_purepaste"
 	    android:summary="@string/sum_purepaste"

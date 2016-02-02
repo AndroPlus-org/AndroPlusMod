@@ -57,6 +57,8 @@
     <string name="sum_wifiband">Option for selecting frequency band of Wi-Fi will be shown in Wi-Fi settings.</string>
     <string name="label_antiproto">Anti-PrototypeProtection</string>
     <string name="sum_antiproto">Kill PrototypeProtection. Use this if you get \"net::ERR_NAME_NOT_RESOLVED\" error when you visit xda. I recommend disabling or deleting PrototypeProtection.apk in /system/app, though.</string>
+    <string name="label_remove_screenshot_delay">Remove screenshot delay</string>
+    <string name="sum_remove_screenshot_delay">Remove small delay when you take screenshot.</string>
     <string name="label_rebootaf">Note</string>
     <string name="nosum">You may need to reboot for changes to take effect.</string>
 </resources>
