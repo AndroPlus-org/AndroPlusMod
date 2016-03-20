@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\myuser\document\GitHub\AndroPlusMod\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\myuser\document\GitHub\AndroPlusMod\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.1.1_99634baddd4484620342b4d109aeca0148375df8.jar" />
+    </item>
+    <item
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\myuser\document\GitHub\AndroPlusMod\app\build\intermediates\pre-dexed\release\support-annotations-23.1.1_160e21806fe4fcbe2b20c34d1bbde421f69a17ae.jar" />
+    </item>
+
+</items>

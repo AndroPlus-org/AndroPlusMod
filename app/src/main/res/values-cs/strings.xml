@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="label_ledoff">Vypnout LED při dokončení nabíjení</string>
+    <string name="sum_unplugon">"Nezapínat obrazovku při zapojení a odpojení nabíječky"</string>
     <string name="label_noisy">Vypnout varování vysoké hlasitosti</string>
     <string name="label_dim">Změnit minimální jas na úroveň 5</string>
-    <string name="sum_unplugon">"Nezapínat obrazovku při zapojení a odpojení nabíječky"</string>
 </resources>

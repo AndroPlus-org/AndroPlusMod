@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="label_unplugon">"Cihaz şarzdan çıkarıldığında ekranı açma"</string>
+    <string name="sum_unplugdock">dock/araba modundayken ekranı otomatik döndürmeyi devre dışı bırak</string>
     <string name="label_noisy">Kulaklık için yüksek ses uyarısını devre dışı bırak</string>
     <string name="label_volsound">ses değişimi sırasındaki uyarı sesini devre dışı bırak</string>
     <string name="label_dim">En düşük parlaklık seviyesini 5\'e ayarla</string>
     <string name="label_ime">"Klavye seçimi bildirimini devre dışı bırak"</string>
-    <string name="sum_unplugdock">dock/araba modundayken ekranı otomatik döndürmeyi devre dışı bırak</string>
     <string name="label_lockrot">Kilit ekranınında ekran döndürmeyi aktif et</string>
 </resources>

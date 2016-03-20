@@ -247,7 +247,7 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 	public void hookPowerManager(LoadPackageParam lpparam)
 		{
 		boolean isUnplug = preference.getBoolean("key_unplugon", false);
-		if(isUnplug){
+		if(isUnplug && Build.VERSION.SDK_INT < Build.VERSION_CODES.M){
 			try
 			{
 				Object[] signature = new Object[2];
